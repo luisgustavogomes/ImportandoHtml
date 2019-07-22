@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportandoHtml", "ImportandoHtml\ImportandoHtml.csproj", "{DAC0611B-8B71-4A5F-BF30-B79F587BC167}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAC0611B-8B71-4A5F-BF30-B79F587BC167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC0611B-8B71-4A5F-BF30-B79F587BC167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC0611B-8B71-4A5F-BF30-B79F587BC167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC0611B-8B71-4A5F-BF30-B79F587BC167}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {724F7BB8-B011-4900-9A52-EFB3F9D667EF}
+	EndGlobalSection
+EndGlobal
