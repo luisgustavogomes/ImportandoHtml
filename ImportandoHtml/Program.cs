@@ -25,12 +25,17 @@ namespace ImportandoHtml
 
         private static void WritePdf()
         {
-            FileStream fs = new FileStream(@"Files\MyPDF.pdf", FileMode.Create, FileAccess.Write, FileShare.None);
+            for (int i = 5; i < 5000; i++)
+            {
+
+            FileStream fs = new FileStream($@"Files\MyPDF{i}.pdf", FileMode.Create, FileAccess.Write, FileShare.None);
             Document doc = new Document();
             PdfWriter writer = PdfWriter.GetInstance(doc, fs);
             doc.Open();
-            doc.Add(new Paragraph("C# é Top Zé Roela!!!"));
+            doc.Add(new Paragraph("C# é Top Zé Roela!!!C# é Top Zé Roela!!!C# é Top Zé Roela!!!C# é Top Zé Roela!!!C# é Top Zé Roela!!!C# é Top Zé Roela!!!C# é Top Zé Roela!!!C# é Top Zé Roela!!!"));
             doc.Close();
+            }
+
         }
     }
 }
